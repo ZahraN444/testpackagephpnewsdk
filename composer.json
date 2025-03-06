@@ -1,5 +1,5 @@
 {
-    "name": "abc/testpackagenewsdk",
+    "name": "newvendorname/testpackagenewsdk",
     "description": "test",
     "type": "library",
     "keywords": [],

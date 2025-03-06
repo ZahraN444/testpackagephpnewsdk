@@ -10,19 +10,19 @@ Demonstrates the use of complex types, including maps, custom types, and oneOf t
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```bash
-composer require "newvendorname/testpackagenewsdk:1.2.4"
+composer require "newvendorname/testpackagenewsdk:1.3.1"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```json
 "require": {
-    "newvendorname/testpackagenewsdk": "1.2.4"
+    "newvendorname/testpackagenewsdk": "1.3.1"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/newvendorname/testpackagenewsdk#1.2.4
+https://packagist.org/packages/newvendorname/testpackagenewsdk#1.3.1
 
 ## Test the SDK
 
@@ -35,7 +35,7 @@ You can change the PHPUnit test configuration in the `phpunit.xml` file.
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.2.4/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.3.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -59,13 +59,13 @@ $client = APIWithComplexHeaderParametersClientBuilder::init()->build();
 
 ## List of APIs
 
-* [API](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.2.4/doc/controllers/api.md)
+* [API](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.3.1/doc/controllers/api.md)
 
 ## Additional Documentation
 
 ### Wrappers
 
-* [ApiException](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.2.4/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.2.4/doc/http-request.md)
-* [HttpResponse](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.2.4/doc/http-response.md)
+* [ApiException](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.3.1/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.3.1/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/testpackagephpnewsdk/tree/1.3.1/doc/http-response.md)
 
